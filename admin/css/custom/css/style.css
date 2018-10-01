@@ -1,0 +1,389 @@
+/*-----------------------------------------------------------------------------*/
+/*  2.0 header wrapper                                                         */
+/* -----------------------------------------------------------------------------*/
+.header_wrapper {
+  width: 100%;
+  background: url(../../img/header_bg.jpg) no-repeat;
+  background-size: cover; }
+  .header_wrapper .overly_bg {
+    background: rgba(0, 0, 0, 0.7); }
+  .header_wrapper .menu_wrapper {
+    background: #fff; }
+    .header_wrapper .menu_wrapper a.logo {
+      color: #333;
+      font-size: 24px;
+      display: inline-block;
+      float: left;
+      margin: 20px 0 0 20px;
+      z-index: 9999999; }
+  .header_wrapper h1 {
+    font-size: 36px;
+    color: #fff;
+    font-weight: 100;
+    line-height: 60px;
+    text-align: center;
+    padding-bottom: 100px; }
+
+.double-bounce1, .double-bounce2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #333;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: bounce 2.0s infinite ease-in-out; }
+
+#nav_wrapper {
+  padding: 15px 90px; }
+  #nav_wrapper ul {
+    float: right;
+    z-index: 999999999 !important; }
+
+.fixed {
+  position: fixed;
+  z-index: 8888;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  background: #fff;
+  color: #fff;
+  box-shadow: 0 1px 1px #000;
+  transition: all 0.8s ease; }
+  .fixed a.logo {
+    position: absolute;
+    left: 100px; }
+
+#main_Container {
+  opacity: 0; }
+
+#pre-loader {
+  position: absolute;
+  top: 18%;
+  left: 49.5%; }
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  margin: 100px auto; }
+
+.double-bounce2 {
+  animation-delay: -1.0s; }
+
+@-webkit-keyframes bounce {}
+@keyframes bounce {
+  0% {
+    transform: scale(0); }
+  100% {
+    transform: scale(0); }
+  50% {
+    transform: scale(1); } }
+.unloaded {
+  opacity: 0; }
+
+.loaded {
+  opacity: 1 !important; }
+
+/*-----------------------------------------------------------------------------*/
+/*  3.0 About wrapper                                                         */
+/* -----------------------------------------------------------------------------*/
+.about_wrapper {
+  width: 100%;
+  background: #f5f5f5;
+  padding: 100px 0;
+  position: relative; }
+  .about_wrapper .about_img {
+    width: 261px;
+    height: 261px;
+    border: 10px solid #fff;
+    position: absolute;
+    top: -120px; }
+  .about_wrapper .vertical_space {
+    height: 50px; }
+  .about_wrapper h3 {
+    font-size: 18px;
+    color: #4a4a4a; }
+  .about_wrapper h4 {
+    font-size: 16px;
+    color: #000; }
+  .about_wrapper p {
+    font-size: 14px;
+    color: #828181;
+    font-family: open sans;
+    line-height: 27px; }
+  .about_wrapper span {
+    font-size: 15px;
+    color: #292828; }
+  .about_wrapper .about_block {
+    background: #fff;
+    padding: 30px;
+    display: inline-block;
+    margin-top: 30px; }
+    .about_wrapper .about_block .fa {
+      font-size: 40px;
+      color: #000; }
+  .about_wrapper .devider {
+    border-bottom: 2px  dashed #000;
+    position: relative;
+    margin-top: 50px; }
+    .about_wrapper .devider .icon-green:after {
+      width: 20px;
+      height: 20px;
+      -webkit-border-radius: 100%;
+      -moz-border-radius: 100%;
+      -ms-border-radius: 100%;
+      border-radius: 100%;
+      background: #26cc97;
+      position: absolute;
+      top: -10px;
+      content: ''; }
+    .about_wrapper .devider .icon-green:before {
+      width: 20px;
+      height: 20px;
+      -webkit-border-radius: 100%;
+      -moz-border-radius: 100%;
+      -ms-border-radius: 100%;
+      border-radius: 100%;
+      background: #26cc97;
+      position: absolute;
+      top: -10px;
+      right: 0;
+      content: ''; }
+    .about_wrapper .devider .white-icon:after {
+      width: 10px;
+      height: 10px;
+      -webkit-border-radius: 100%;
+      -moz-border-radius: 100%;
+      -ms-border-radius: 100%;
+      border-radius: 100%;
+      background: #fff;
+      display: inline-block;
+      margin: 5px;
+      position: absolute;
+      content: '';
+      z-index: 1;
+      top: -10px; }
+    .about_wrapper .devider .white-icon:before {
+      width: 10px;
+      height: 10px;
+      -webkit-border-radius: 100%;
+      -moz-border-radius: 100%;
+      -ms-border-radius: 100%;
+      border-radius: 100%;
+      background: #fff;
+      display: inline-block;
+      margin: 5px;
+      position: absolute;
+      content: '';
+      z-index: 1;
+      top: -10px;
+      right: 0; }
+
+.section_heading {
+  font-size: 24px;
+  color: #2a2929; }
+
+/*-----------------------------------------------------------------------------*/
+/*  4.0 Skills Wrapper                                                         */
+/* -----------------------------------------------------------------------------*/
+.skill_wrapper {
+  width: 100%;
+  background: #fff;
+  padding: 50px 0; }
+  .skill_wrapper .skill_block {
+    background: #f5f5f5;
+    padding: 30px;
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative; }
+    .skill_wrapper .skill_block .fa {
+      font-size: 40px;
+      color: #000; }
+  .skill_wrapper p {
+    font-size: 14px;
+    color: #828181;
+    font-family: open sans;
+    line-height: 27px; }
+  .skill_wrapper articel {
+    margin-top: 30px;
+    display: block; }
+  .skill_wrapper .green_block {
+    position: absolute;
+    background: #26cc97;
+    padding: 3px 30px;
+    color: #fff;
+    font-size: 24px;
+    top: 0;
+    right: -105px; }
+  .skill_wrapper .green_block:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-right: 50px solid #26cc97;
+    border-left: 50px solid transparent;
+    border-bottom: 50px solid transparent; }
+  .skill_wrapper .gray_section {
+    background: #f5f5f5;
+    padding: 15px; }
+
+.text-indent-hide {
+  text-indent: -99999px; }
+
+/*-----------------------------------------------------------------------------*/
+/*  5.0 My Work Wrapper                                                         */
+/* -----------------------------------------------------------------------------*/
+.my_work_wrapper {
+  width: 100%;
+  background: #f5f5f5;
+  padding: 50px 0; }
+
+/*-----------------------------------------------------------------------------*/
+/*  6.0 Contact Wrapper                                                         */
+/* -----------------------------------------------------------------------------*/
+.contact_wrapper {
+  width: 100%;
+  background: #f5f5f5;
+  padding: 50px 0; }
+  .contact_wrapper .contact_address {
+    background: #fff;
+    padding: 5px 25px;
+    display: block;
+    min-height: 420px; }
+  .contact_wrapper h3 {
+    font-size: 16px;
+    color: #323232; }
+  .contact_wrapper p {
+    font-size: 14px;
+    color: #828181;
+    font-family: open sans;
+    line-height: 27px; }
+  .contact_wrapper .form-control {
+    display: block;
+    width: 100%;
+    height: 45px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #333;
+    background-color: transparent;
+    background-image: none;
+    border-bottom: 2px solid #333;
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.075) inset;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    border: 0;
+    border-bottom: 2px solid #333;
+    margin-top: 5px; }
+  .contact_wrapper .textarea {
+    height: auto !important; }
+  .contact_wrapper .submit {
+    background: #333;
+    padding: 10px 30px;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 50px; }
+
+/*-----------------------------------------------------------------------------*/
+/*  7.0 Footer Wrapper                                                         */
+/* -----------------------------------------------------------------------------*/
+.footer_wrapper {
+  width: 100%;
+  background: #242424;
+  padding: 80px 0;
+  text-align: center; }
+  .footer_wrapper p {
+    font-size: 15px;
+    color: #f5f5f5;
+    font-family: open sans;
+    line-height: 27px;
+    margin: 0; }
+  .footer_wrapper .fa {
+    font-size: 30px;
+    color: #000; }
+  .footer_wrapper .social-icon {
+    background: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 5px; }
+
+/*-----------------------------------------------------------------------------*/
+/*  8.0 Responsive Css Start                                                   */
+/* -----------------------------------------------------------------------------*/
+@media screen and (max-width: 767px) {
+  .skill_wrapper .green_block {
+    right: 0; }
+
+  .row {
+    margin: 0; }
+
+  .contact_wrapper .contact_address {
+    min-height: auto; }
+
+  .about_wrapper .about_block {
+    display: block; } }
+@media screen and (max-width: 900px) {
+  .fixed a.logo {
+    left: 0px; } }
+/* Main Style File */
+/*---------------------------------------------------------------------------*/
+ /* Table of Contents:
+ *
+ * 1.0 - General Style
+ * 2.0 - Header Wrapper
+ * 3.0 - About Wrapper 
+ * 4.0 - Skills Wrapper
+ * 5.0 - My Work Wrapper
+ * 6.0 - Contact Wrapper
+ * 7.0 - footer Wrapper
+ * 8.0 - Responsive Css Start
+  
+/* -----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/* 1.0 General Style                                                          */
+/* -------------------------------------------------------------------------- */
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-smoothing: antialiased; }
+
+body {
+  margin: 0;
+  padding: 0;
+  /*Default font size */
+  font-size: 15px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-size: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-smoothing: antialiased; }
+
+a, a:hover {
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+  color: #f5b705; }
+
+.container {
+  max-width: 1170px;
+  margin: auto; }
+
+.main_container {
+  width: 100%;
+  padding: 0; }
+
+.no-padding {
+  padding: 0; }
+
+img {
+  max-width: 100%; }
+
+/*# sourceMappingURL=style.css.map */

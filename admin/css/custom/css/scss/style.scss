@@ -1,0 +1,74 @@
+@import 'variables';
+@import 'mixins'; 
+@import 'header'; 
+@import 'about'; 
+@import 'skills'; 
+@import 'my-work'; 
+@import 'contact';
+@import 'footer';  
+@import 'responsive';  
+ 
+/* Main Style File */
+
+/*---------------------------------------------------------------------------*/
+ /* Table of Contents:
+ *
+ * 1.0 - General Style
+ * 2.0 - Header Wrapper
+ * 3.0 - About Wrapper 
+ * 4.0 - Skills Wrapper
+ * 5.0 - My Work Wrapper
+ * 6.0 - Contact Wrapper
+ * 7.0 - footer Wrapper
+ * 8.0 - Responsive Css Start
+  
+/* -----------------------------------------------------------------------------*/
+ 
+ 
+ 
+/*----------------------------------------------------------------------------*/
+/* 1.0 General Style                                                          */
+/* -------------------------------------------------------------------------- */
+
+ html{
+	-webkit-font-smoothing:antialiased;
+	-moz-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+}
+
+body{ 
+	margin:0;
+	padding:0;
+	
+	/*Default font size */
+	font-size:15px;
+	font-family:$font;
+	font-weight:400;
+	font-size:100%;
+	
+	-webkit-font-smoothing:antialiased;
+	-moz-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+}
+
+
+a,a:hover{
+	text-decoration:none;
+	transition: all 0.5s ease-in-out;
+	color:#f5b705;
+}
+.container{
+	max-width:$container-width;
+	margin:auto;
+}
+.main_container{
+	width:100%;
+	padding:0;
+}
+.no-padding{
+	padding:0;
+}
+
+img{
+	max-width:$img;
+}

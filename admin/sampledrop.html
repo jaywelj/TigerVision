@@ -1,0 +1,32 @@
+<html>
+<head>
+</head>
+<body>
+
+<form>
+
+
+<select name="fruit1" onchange="witness();">
+    <option value="1">Apple</option>
+    <option value="2">Mango</option>
+</select>
+
+//second dropdown  
+<select name="fruit2">
+    <option value="1">Apple</option>
+    <option value="2">Mango</option>
+</select>
+
+
+
+<script type="text/javascript"> 
+function witness()
+{
+    var op=document.getElementById("witness1").value;
+    $('option[value='+op+']').prop('disabled', true);
+}
+
+</script>
+</form>
+</body>
+</html>

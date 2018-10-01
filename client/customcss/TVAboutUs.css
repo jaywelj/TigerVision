@@ -1,0 +1,36 @@
+.about
+{
+	border-top-width:10px;
+	border-bottom-width:10px;
+}
+
+.abtContent
+{
+	font-size:15px;
+	border-style: solid;
+	border-color: #ff9900;
+	margin-top: 20px;
+	margin-left: 300px;
+	margin-right: 300px;
+	padding-left:15px;
+	padding-right: 15px;
+}
+
+.awardsContent
+{
+	font-size:15px;
+	border-style: solid;
+	border-color: #ff9900;
+	margin-top: 20px;
+	margin-left: 300px;
+	margin-right: 300px;
+	padding-top: 20px;
+	padding-left:15px;
+	padding-right: 15px;
+	padding-bottom: 20px;
+}
+.award
+{
+	border-top-width:10px;
+	border-bottom-width:10px;
+}

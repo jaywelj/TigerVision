@@ -1,0 +1,69 @@
+ 
+ /*-----------------------------------------------------------------------------*/
+ /*  6.0 Contact Wrapper                                                         */
+ /* -----------------------------------------------------------------------------*/
+ 
+
+.contact_wrapper{
+	width:100%;
+	background:$gray-bg;
+	padding:50px 0;
+	
+	.contact_address{
+		background:#fff;
+		padding:5px 25px;
+		display:block;
+		min-height:420px;
+   	}
+	
+	h3{
+		font-size:16px;
+		color:#323232;
+ 	}
+	p{
+	 font-size:14px;
+	 color:#828181;
+	 font-family:open sans;
+	 line-height:27px;
+   }
+	 
+	 .form-control {
+		display: block;
+		width: 100%;
+		height: 45px;
+		padding: 6px 12px;
+		font-size: 14px;
+		line-height: 1.42857;
+		color: #333;
+		background-color: transparent;
+		background-image: none;
+		border-bottom: 2px solid #333;
+		border-radius: 0px;
+		box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.075) inset;
+		transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+		border: 0;
+		border-bottom: 2px solid #333;
+		margin-top:5px;
+	}
+	.textarea{
+		height:auto !important;
+	}
+	
+	.submit{
+		background:#333;
+		padding:10px 30px;
+		border:none;
+		outline:0;
+		display:inline-block;
+		color:#fff;
+		font-size:16px;
+		margin-top:50px;
+	}
+	
+	
+}
+
+
+
+
+	

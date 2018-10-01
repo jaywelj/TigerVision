@@ -1,0 +1,79 @@
+
+@font-face{
+  font-family:Axettac Demo;
+  src: url('Axettac Demo.ttf');
+}
+/* The Carousel*/
+.carousel-indicators{
+	bottom:50px;
+}
+#myCarousel{
+	margin:0;
+}
+#tgr{
+  position:absolute;
+  top:20%;
+  left:50%; 
+  text-align:center;
+  transform: translateX(-50%) translateY(-50%);
+  text-shadow: 3px 4px #000000;
+}
+#cmpy{
+  position:absolute;
+  top:30%;
+  left:50%; 
+  text-align:center;
+  transform: translateX(-50%) translateY(-50%);
+  text-shadow: 3px 4px #000000;
+}
+#tag{
+  position:absolute;
+  left:50%; 
+  text-align:center;
+  transform: translateX(-50%) translateY(-50%);
+  text-shadow: 1px 2px #000000;
+}
+._btnReserveNow {
+  display: inline-block;
+  border-radius: 7px;
+  background-color: #3498db;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 30px;
+  padding: 5px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 10px;
+} 
+._btnReserveNow span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+._btnReserveNow span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top:-9px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+._btnReserveNow:hover span {
+  padding-right: 25px;
+}
+
+._btnReserveNow:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+._btnHomeReserve{
+  position:absolute;
+  top:43%;
+  left:50%; 
+  transform: translateX(-50%) translateY(-50%);
+}

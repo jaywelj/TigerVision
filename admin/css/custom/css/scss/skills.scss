@@ -1,0 +1,68 @@
+ 
+ /*-----------------------------------------------------------------------------*/
+ /*  4.0 Skills Wrapper                                                         */
+ /* -----------------------------------------------------------------------------*/
+ 
+
+.skill_wrapper{
+	width:100%;
+	background:#fff;
+	padding:50px 0;
+	
+	 .skill_block{
+		 background:$gray-bg;
+		 padding:30px;
+		 display:block;
+		 margin-bottom:30px;
+		 text-align: center;
+		 position:relative;
+		 
+		 .fa{
+			 font-size:40px;
+			 color:#000;
+		 }
+			 
+	 }
+	 
+ p{
+	 font-size:14px;
+	 color:#828181;
+	 font-family:open sans;
+	 line-height:27px;
+ }
+ 
+articel{
+  margin-top:30px;
+  display:block;
+}
+
+.green_block{
+	 position:absolute;
+	 background:#26cc97;
+	 padding: 3px 30px;
+	 color:#fff;
+	 font-size:24px;
+	 top:0;
+	 right:-105px; 
+  }
+  
+.green_block:after{
+  content:'';
+  position:absolute;
+  right:0;
+  top:0;
+  border-right:50px solid #26cc97;
+  border-left:50px solid transparent;
+  border-bottom:50px solid transparent;
+}
+
+.gray_section{
+  background:$gray-bg;
+  padding:15px;
+}
+	 
+}
+
+.text-indent-hide{
+	text-indent:-99999px;
+}

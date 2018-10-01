@@ -1,0 +1,122 @@
+ 
+ /*-----------------------------------------------------------------------------*/
+ /*  3.0 About wrapper                                                         */
+ /* -----------------------------------------------------------------------------*/
+ 
+
+.about_wrapper{
+	width:100%;
+	background:$gray-bg;
+	padding:100px 0;
+	position:relative;
+	
+		 .about_img{
+			 width:261px;
+			 height:261px;
+			 @include border-radius(100%);
+			 border:10px solid #fff;
+			 position:absolute;
+			 top:-120px;
+		 }
+		 
+		 .vertical_space{
+			 height:50px;
+		 }
+		 
+		 h3{
+			 font-size:18px;
+			 color:#4a4a4a;
+		 }
+		
+		 h4{
+			 font-size:16px;
+			 color:#000;
+		 }
+		 p{
+			 font-size:14px;
+			 color:#828181;
+			 font-family:open sans;
+			 line-height:27px;
+		 }
+		 span{
+			 font-size:15px;
+			 color:#292828;
+ 		 }
+		 
+		 .about_block{
+			 background:#fff;
+			 padding:30px;
+			 display:inline-block;
+			 margin-top:30px;
+			 
+			 .fa{
+				 font-size:40px;
+				 color:#000;
+			 }
+				 
+		 }
+		 
+		 .devider{
+			 border-bottom:2px  dashed #000;
+			 position:relative;
+			 margin-top:50px;
+			
+			 
+			 .icon-green:after{
+				 width:20px;
+				 height:20px;
+				 @include border-radius(100%);
+				 background:#26cc97;
+				 position:absolute;
+				 top:-10px;
+				 content:'';
+ 				 
+			 }
+				 
+				  .icon-green:before{
+					 width:20px;
+					 height:20px;
+					 @include border-radius(100%);
+					 background:#26cc97;
+					 position:absolute;
+					 top:-10px;
+					 right:0;
+					 content:'';
+				 }
+				 
+				 .white-icon:after{
+					 width:10px;
+					 height:10px;
+					 @include border-radius(100%);
+					 background:#fff;
+					 display: inline-block;
+ 					 margin:5px;
+					  position:absolute;
+					  content:'';
+					  z-index: 1;
+						top: -10px;
+				 }
+				 
+				 .white-icon:before{
+					 width:10px;
+					 height:10px;
+					 @include border-radius(100%);
+					 background:#fff;
+					 display: inline-block;
+ 					 margin:5px;
+					  position:absolute;
+					  content:'';
+					  z-index: 1;
+					  top: -10px;
+					  right:0;
+				 }
+				 
+			  
+			 
+		 }
+}
+
+.section_heading{
+	font-size:24px;
+	color:#2a2929;
+}

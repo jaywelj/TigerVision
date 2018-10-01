@@ -1,0 +1,26 @@
+ 
+ /*-----------------------------------------------------------------------------*/
+ /*  8.0 Responsive Css Start                                                   */
+ /* -----------------------------------------------------------------------------*/
+ 
+
+@media screen and (max-width:767px){
+	.skill_wrapper .green_block{
+		right:0;
+	}
+	.row{
+		margin:0;
+	}
+	.contact_wrapper .contact_address{
+		min-height:auto;
+	}
+	.about_wrapper .about_block{
+		display:block;
+	}
+}
+
+@media screen and (max-width:900px){	
+	.fixed  a.logo{
+ 	 left: 0px;
+	}	
+}
