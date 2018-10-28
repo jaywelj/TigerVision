@@ -108,7 +108,7 @@
 				$_SESSION['adminName'] = $username;
 				$_SESSION['adminAccessLevel'] = $admin_accessLevel;
 				$_SESSION['success'] = "You are now logged in";
-				header('location: TVAdminDashboard.php');
+				header('location: index.php');
 			}else {
 				$message = "Invalid Entry";
                             echo "<script type='text/javascript'>alert('$message');</script>";

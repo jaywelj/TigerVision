@@ -32,7 +32,7 @@
 				<!-- menu -->
 				<div class="collapse navbar-collapse navbar-right " id="mynavbar">
 					<ul class="nav navbar-nav" >
-						<li><a href="TVHome.php" ><strong>HOME</strong></a></li>
+						<li><a href="index.php" ><strong>HOME</strong></a></li>
 						<li class="active"><a href="TVReserveATour.php"><strong>RESERVE A TOUR</strong></a></li>
 						<li><a href="TVDestinationsOffered.php"><strong>DESTINATIONS OFFERED</strong></a></li>
 						<li><a href="TVPayment.php"><strong>PAYMENT</strong></a></a></li>
