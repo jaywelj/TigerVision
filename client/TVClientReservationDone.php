@@ -32,7 +32,7 @@
 				<!-- menu -->
 				<div class="collapse navbar-collapse navbar-right " id="mynavbar">
 					<ul class="nav navbar-nav" >
-						<li><a href="TVHome.php" ><strong>HOME</strong></a></li>
+						<li><a href="index.php" ><strong>HOME</strong></a></li>
 						<li class="active"><a href="TVReserveATour.php"><strong>RESERVE A TOUR</strong></a></li>
 						<li><a href="TVDestinationsOffered.php"><strong>DESTINATIONS OFFERED</strong></a></li>
 						<li><a href="TVPayment.php"><strong>PAYMENT</strong></a></a></li>
@@ -52,7 +52,7 @@
 			<?php
 			$varcharPaymentMethodNoSpace = str_replace(' ', '', $varcharPaymentMethod);
 			?>
-			<center><a class="btn btn-primary btn-lg" style="font-size: 30px; font-family: Eras ITC;" href="TVHome.php">HOME</a><a class="btn btn-primary btn-lg" style="font-size: 30px; font-family: Eras ITC;margin-left: 30px" href="TVClientGenerateReservationVoucher<?php echo $varcharPaymentMethodNoSpace?>.php?
+			<center><a class="btn btn-primary btn-lg" style="font-size: 30px; font-family: Eras ITC;" href="index.php">HOME</a><a class="btn btn-primary btn-lg" style="font-size: 30px; font-family: Eras ITC;margin-left: 30px" href="TVClientGenerateReservationVoucher<?php echo $varcharPaymentMethodNoSpace?>.php?
 				<?php echo"id=$reserveid&type=$reservetype&pm=$varcharPaymentMethod&pt=$varcharPaymentType";?>" >Print Voucher</a></center>
 		</div>
 	</body>

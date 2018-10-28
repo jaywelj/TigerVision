@@ -58,7 +58,7 @@ header("Location: TVAdminDestinations.php");
                 <ul class="list-unstyled components">
                     <p></p>
                     <li >
-                        <a href="TVAdminDashboard.php">
+                        <a href="index.php">
                             <i class="glyphicon glyphicon-home"></i>
                             Dashboard
                         </a>
